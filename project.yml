@@ -8,9 +8,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 6.9468
-  - 50.9568
-  - 12
+  - 6.9524
+  - 50.9339
+  - 14
 description: |
   Cardboard Map Style with a mapzen base layer
   

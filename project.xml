@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[Map data © OpenStreetMap contributors]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">6.9468,50.9568,12</Parameter>
+  <Parameter name="center">6.9524,50.9339,14</Parameter>
   <Parameter name="description"><![CDATA[Cardboard Map Style with a mapzen base layer
 ]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
@@ -241,11 +241,10 @@
     <StyleName>roads</StyleName>
     <StyleName>roads-inset</StyleName>  </Layer>
 
-<Style name="buildings" filter-mode="first" comp-op="hard-light" opacity="0.4">
+<Style name="buildings" filter-mode="first" comp-op="darken" opacity="0.8">
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <BuildingSymbolizer height="-1" />
-    <PolygonSymbolizer fill="#666666" gamma="0" />
+    <BuildingSymbolizer height="2" fill="#dddddd" fill-opacity="1" />
   </Rule>
 </Style>
 <Layer name="buildings"

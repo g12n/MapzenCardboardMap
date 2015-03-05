@@ -89,16 +89,18 @@ Map {
      	line-geometry-transform: "translate(2, 0)";
         image-filters: agg-stack-blur(1,1);
     	[zoom<=5] {line-width:0}
-
     }
 }
 
 #buildings {
  [zoom>=10] {
-    building-height: -1;
-    polygon-fill:#666;
-    polygon-gamma:0;
-	comp-op:  hard-light;
-    opacity:0.4
+    building-height: 2; 
+    building-fill: #ddd;
+    building-fill-opacity: 1;
+    opacity: 0.8;
+    comp-op: darken   ;
+        
+
+
   }
 }
