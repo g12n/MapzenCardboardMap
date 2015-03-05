@@ -1,0 +1,27 @@
+_prefs: 
+  saveCenter: true
+_properties: {}
+attribution: Map data © OpenStreetMap contributors
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 6.9468
+  - 50.9568
+  - 12
+description: |
+  Cardboard Map Style with a mapzen base layer
+  
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 0
+name: Mapzen Cardboard Map
+source: "http://vector.mapzen.com/osm/tilejson/mapbox.json"
+styles: 
+  - style.mss
+  - labels.mss
+template: ''
