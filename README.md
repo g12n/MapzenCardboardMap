@@ -1,5 +1,5 @@
 # MapzenCardboardMap.tm2
-Tilemill 2 Map Style based on a Cardboard look based on the [Mapzen Vector Tile Service][mapzenTiles]
+[Mapbox Studio][mapboxStudio] Style with a Cardboard look based on the [Mapzen Vector Tile Service][mapzenTiles]
 
 ## Install and use
 
